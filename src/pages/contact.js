@@ -1,8 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
+import Header from '../components/header'
+import Footer from '../components/footer'
 
 const Contact = () => (
   <div>
+    <Header />
     <h1>Contact Me</h1>
     <p>
       You can reach me at{" "}
@@ -11,6 +13,7 @@ const Contact = () => (
       </a>{" "}
       on Twitter!
     </p>
+    <Footer />
   </div>
 )
 
