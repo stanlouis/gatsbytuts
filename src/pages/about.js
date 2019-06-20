@@ -1,16 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Layout from "../components/layout";
 
 const About = () => (
-  <div>
-    <Header />
+  <Layout>
     <h1>About Me</h1>
     <p>I am a full-stack developers specializing in NodeJS</p>
     <Link to="/Contact">Contact Me</Link>
-    <Footer />
-  </div>
+  </Layout>
 )
 
 export default About

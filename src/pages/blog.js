@@ -1,14 +1,11 @@
 import React from "react"
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Layout from "../components/layout";
 
 const Blog = () => (
-  <div>
-    <Header />
+  <Layout>
     <h1>Blog</h1>
     <p>Posts to follow...</p>
-    <Footer />
-  </div>
+  </Layout>
 )
 
 export default Blog

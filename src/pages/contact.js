@@ -1,10 +1,8 @@
 import React from "react"
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Layout from "../components/layout";
 
 const Contact = () => (
-  <div>
-    <Header />
+  <Layout>
     <h1>Contact Me</h1>
     <p>
       You can reach me at{" "}
@@ -13,8 +11,7 @@ const Contact = () => (
       </a>{" "}
       on Twitter!
     </p>
-    <Footer />
-  </div>
+  </Layout>
 )
 
 export default Contact
